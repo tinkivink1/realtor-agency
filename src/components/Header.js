@@ -13,7 +13,10 @@ class Header extends React.Component{
     render() {
         return (
             <div className="header" onMouseEnter={this.onMouseOver}>
-                <h1 className="header-text">dfsfds</h1>
+                <div className="header header-container">
+                    <h1 className="header-text">Main page</h1>
+                    <h1 className="header-text">Help</h1>
+                </div>
             </div>
         )
     }
