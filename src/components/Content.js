@@ -16,10 +16,10 @@ class Content extends React.Component{
 
         return (
             <div>
-                    <h2> 
-                        {this.state.userData}
-                    </h2>
-                
+                <h2> 
+                    {this.state.userData}
+                </h2>
+
                 <label>
                     Ввод данных
                     <input className="input" placeholder="Input data here..."

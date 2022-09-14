@@ -3,9 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: U;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 body{
@@ -17,7 +21,6 @@ body{
     height: 50px;
     background-color: #5b3866;
     display: flex;
-    position: relative;
     align-items: center;
     align-content: center;
     position: sticky;
@@ -27,19 +30,26 @@ body{
 .header-container {
     margin-left: auto;
     margin-right: auto;
-    min-width: 600px;
+    min-width: 1080px;
     flex-direction: row;
     display: flex;
     width: auto;
+    margin-top: auto;
 }
 
 .header-text{
-    font-size: 25px;
+    font-size: medium;
     color: #CCC;
-    align-self: left;
-    margin: 10px;
 }
 
+.header-text-container {
+    padding: 10px;
+    transition-duration: 0.2s;
+}
+
+.header-text-container:hover{
+    background-color: #3d2644;
+}
 
 .input{
     width: 250px;
@@ -49,17 +59,23 @@ body{
 }
 
 .button{
-    background-color: #4CAF50; /* Green */
+    background-color: #5b3866;
+    border-color: #3d2644;
+    border-radius: 10px;
     width: 75px;
-    height: 25px;
-    -webkit-transition-duration: 0.2s; /* Safari */
+    height: 35px;
     transition-duration: 0.2s;
     cursor: pointer;
-    border-radius: 10px;
+    font-size: small;
 }
 
 .button:hover {
-    background-color: #436f30;
-    color: rgb(0, 0, 0);
-    rotate: 10%;
+    background-color: #3d2644;
+    color: #AAA
+}
+
+.alignment-right {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 10px;
 }
