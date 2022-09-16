@@ -7,38 +7,6 @@ function App(){
   return(
   <div>
     <Header/>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
-    <h1 style={{fontSize:100}}>Type text</h1>
     <Content/>
     <Footer/>
   </div>

@@ -28,12 +28,13 @@ class Header extends React.Component{
                             </a>
                         </p>
                     </dev>
-                    <div className="alignment-right">
+                    <div style={{display: "flex"}}className="alignment-right">
                         <button className="button header-text">
                             <a href="/login">
                                 Sign in
                             </a>
                         </button>
+                        
                         <button className="button header-text">
                             <a href="/login">
                                 Sign in

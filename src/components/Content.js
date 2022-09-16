@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Custom from "./Custom"
-
+import ContentCard from "./ContentCard"
 
 class Content extends React.Component{
     constructor(props){
@@ -19,6 +19,13 @@ class Content extends React.Component{
                 <h2> 
                     {this.state.userData}
                 </h2>
+
+                <div className="content-block alignment-center">
+                    <div  className=".content-cards-container">
+                        <ContentCard itemName="Глаз на фоне радужном!"></ContentCard>
+                    </div>
+
+                </div>
 
                 <label>
                     Ввод данных
