@@ -14,24 +14,24 @@ class Header extends React.Component{
         return (
             <div className="header" onMouseEnter={this.onMouseOver}>
                 <div className="header header-container">
-                    <dev className="header-text-container">
+                    <div className="header-text-container">
                         <p className="header-text">
                             <a href="/">
                                 Main page
                             </a>
                         </p>
-                    </dev>
-                    <dev className="header-text-container">
+                    </div>
+                    <div className="header-text-container">
                         <p className="header-text">
                             <a href="/help">
                                 Help
                             </a>
                         </p>
-                    </dev>
+                    </div>
                     <div style={{display: "flex"}}className="alignment-right">
-                        <button className="button header-text">
-                            <a href="/login">
-                                Sign in
+                        <button className="button header-text" style={{marginRight:10}}>
+                            <a href="/login" >
+                                Sign up
                             </a>
                         </button>
                         
