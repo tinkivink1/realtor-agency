@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import AppFunc from "./AppFunc"
 import ContentCard from "./ContentCard"
+import { Animated } from "react-animated-css"
 import "../css/index.css"
 class Content extends React.Component{
     constructor(props){
@@ -16,28 +17,38 @@ class Content extends React.Component{
     render() {
         return (
             <div>
-                <h2> 
-                    {this.state.userData}
-                </h2>
-                <div className="content-block alignment-center">
-                        <ContentCard itemName="Глаз на фоне радужном!"></ContentCard>
-                        <ContentCard itemName="Но глаз не так уж прост!"></ContentCard>
-                        <ContentCard itemName="Летает в воздухе и смотрит!"></ContentCard>
-                        <ContentCard itemName="Летает в воздухе и смотрит!"></ContentCard>
-                <label>
-                    Ввод данных
-                    <input className="input" 
-                        placeholder="Input data here..."
-                        onChange={event => this.setState({userData: event.target.value})}>
-                    </input>
-                </label>
-                <button className="button" onClick={() => {this.onClickAction()}}>
-                    Click me
-                </button>
                 
-                <AppFunc/>
+                <div className="content-block alignment-center">
+                    <label>
+                        Поиск
+                        <input className="input" 
+                            placeholder="Input data here..."
+                            onChange={event => this.setState({userData: event.target.value})}>
+                        </input>
+                    </label>
+                    <button className="button" onClick={() => {this.onClickAction()}}>
+                        Click me
+                    </button>
+                    <div className="content-cards-container">
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item nameaaaaaaaaaaaaaaaaaaaa" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                    </div>
+                    <div className="content-cards-container">
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                    </div>
+                    <div className="content-cards-container">
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                        <ContentCard itemName="Item name item name item name" itemPrice="99999"></ContentCard>
+                    </div>
                 </div>
-
+                
                 
             </div>
         )
